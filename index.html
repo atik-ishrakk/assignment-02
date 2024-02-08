@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expression Validator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Expression Validator</h2>
+
+<label for="expressionType">Select Expression Type:</label>
+<select id="expressionType">
+  <option value="email">Email</option>
+  <option value="phoneNumber">Phone Number</option>
+  <option value="postCode">Post Code</option>
+</select>
+
+<input type="text" id="inputExpression" placeholder="Enter expression">
+<button onclick="validateExpression()">Validate</button>
+
+<p id="result"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
